@@ -179,7 +179,7 @@ const TodoList: React.FC<IProps> = ({ todos }) => {
             red, orange, yellow, green, blue, navy
         };
     }, [todos]);
-    console.log(getTodoColorNums());
+    // console.log(getTodoColorNums());
     const todoColorNums = useMemo(getTodoColorNums, [todos]);
 
     type ObjectIndexType = {
@@ -198,7 +198,7 @@ const TodoList: React.FC<IProps> = ({ todos }) => {
         });
         return colors;
     }, [todos]);
-    console.log(todoColorNums2);
+    // console.log(todoColorNums2);
 
     return (
         <Container>

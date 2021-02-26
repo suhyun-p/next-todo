@@ -6,6 +6,7 @@
   "author": "suhpark <laztwo@hanmail.net>",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.21.1",
     "next": "^10.0.7",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
