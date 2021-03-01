@@ -14,3 +14,5 @@ interface AddTodoAPIBody {
 export const addTodoAPI = (body: AddTodoAPIBody) => {
     axios.post("/api/todos", body);
 }
+
+export const deleteTodoAPI = (id: number) => axios.delete(`/api/todos/${id}`);
